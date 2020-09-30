@@ -456,16 +456,10 @@ function Postal:CreateAboutFrame()
 		tinsert(UISpecialFrames, "PostalAboutFrame")
 
 		-- H.Sch. - ReglohPri - changes for Shadowlands Patch 9.0.1
-		--[[aboutFrame:SetBackdrop({
-			bgFile = [[Interface\DialogFrame\UI-DialogBox-Background]],
-			edgeFile = [[Interface\DialogFrame\UI-DialogBox-Border]],
-			tile = true, tileSize = 16, edgeSize = 16,
-			insets = { left = 3, right = 3, top = 5, bottom = 3 }
-		})--]]
-
 		aboutFrame.backdropInfo = {
-			bgFile = [[Interface\DialogFrame\UI-DialogBox-Background]],
-			edgeFile = [[Interface\DialogFrame\UI-DialogBox-Border]],
+			--bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
+			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background",
+			edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border",
 			tile = true, tileSize = 16, edgeSize = 16,
 			insets = { left = 3, right = 3, top = 5, bottom = 3 }
 		}

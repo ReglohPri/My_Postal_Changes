@@ -1,6 +1,6 @@
 ## Interface: 90001
 ## Title: Postal
-## Version: v3.6.3-alpha
+## Version: v3.6.4-beta
 ## X-Build: 413
 ## X-ReleaseDate: 2020-01-15T16:37:21Z
 ## X-Revision: $Revision: 413 $
