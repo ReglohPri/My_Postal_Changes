@@ -360,7 +360,7 @@ function Postal_BlackBook:SortAndCountNumFriends()
 	-- H.Sch. - ReglohPri - changes for Patch 9.0.1 Shadowlands
 	local numFriends = C_FriendList.GetNumFriends()
 	for i = 1, numFriends do
-		sorttable[i] = GetFriendInfo(i)
+		sorttable[i] = C_FriendList.GetFriendInfoByIndex(i) -- H.Sch. this function is deprecated. -> GetFriendInfo(i)
 	end
 
 	-- removed lines causing issues
